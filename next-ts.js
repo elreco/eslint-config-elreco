@@ -14,6 +14,7 @@ module.exports = {
     'react/no-children-prop': 'off',
     'react/react-in-jsx-scope': 'off',
     'react-hooks/rules-of-hooks': 'error',
+    'prettier/prettier': 'error',
     'import/order': [
       "error",
       {
