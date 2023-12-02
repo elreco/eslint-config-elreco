@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-elreco",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "My personnal eslint configs for React, Vue",
   "main": "next-ts.js",
   "scripts": {
