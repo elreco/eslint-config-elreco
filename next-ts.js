@@ -46,4 +46,10 @@ module.exports = {
     node: true,
     es6: true,
   },
+  overrides: [
+    {
+      files: ['*.ts', '*.tsx', '*.js'],
+      parser: '@typescript-eslint/parser',
+    },
+  ],
 };
