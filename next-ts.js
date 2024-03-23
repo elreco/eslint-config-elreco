@@ -3,10 +3,11 @@ module.exports = {
     "eslint:recommended",
     "plugin:prettier/recommended",
     "plugin:@typescript-eslint/recommended",
+    "plugin:tailwindcss/recommended",
     "next",
   ],
   root: true,
-  plugins: ["@typescript-eslint", 'prettier-plugin-tailwindcss'],
+  plugins: ["@typescript-eslint"],
   rules: {
     "@next/next/no-img-element": "off",
     "@next/next/no-page-custom-font": "off",
@@ -17,8 +18,7 @@ module.exports = {
     "prettier/prettier": [
       "error",
       {
-        endOfLine: "auto",
-        plugins: ["prettier-plugin-tailwindcss"],
+        endOfLine: "auto"
       },
     ],
     "import/order": [
