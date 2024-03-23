@@ -7,7 +7,7 @@ module.exports = {
     "next",
   ],
   root: true,
-  plugins: ["@typescript-eslint"],
+  plugins: ["@typescript-eslint", "tailwindcss"],
   rules: {
     "@next/next/no-img-element": "off",
     "@next/next/no-page-custom-font": "off",
@@ -39,6 +39,7 @@ module.exports = {
         },
       },
     ],
+    "tailwindcss/classnames-order": "error"
   },
   ignorePatterns: ["*.js", "node_modules/"],
   env: {
